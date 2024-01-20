@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500;600&display=swap");
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: 100%;
+  font-family: "Raleway", sans-serif;
+}
+body{
+    /* background-color: #eaeff1; */
+    background-color: lightgray;
+  /* font-family: "Raleway", sans-serif; */
+
+}
+
+.nav{
+  border-bottom: 0.1px dotted black;
+  height: 10vh;
+  width: 100vw;
+  /* background-color: #eaeff1a1; */
+  color: black;
+  display: flex;
+  justify-content:center;
+  font-size: 5vh;
+}
+
+.watch{
+  padding-top: 4vh;
+  font-size: 11vh;
+  display: flex; 
+   justify-content: center;
+  color: black;
+}
+
+.container{
+  box-shadow: rgba(0, 0, 0, 0.30) 0px 2px 10px, rgba(0, 0, 0, 0.50) 0px 2px 10px, rgba(0, 0, 0, 0.30) 0px 4px 6px;
+  border: 1px solid #bacdd8;
+  border-radius: 5px;
+  max-width: 600px;
+  margin: 0 auto;
+  min-height:450px;
+  margin-top: 8vh;
+  /* background-image: linear-gradient(25deg,#d64c7f,#ee4758 50%); */
+  text-align: center;
+   padding: 16px 8px 8px 8px;
+}
+.bttn{
+  margin-top:5vh;
+  }
+
+.alr{
+  margin-top:20vh;
+}
+
+
+#alarmHour{
+ color: black;
+    font-size: 1.40rem;
+    line-height: 1;
+    border-style: none;
+    outline: none;
+    height: calc(0.3em + 0.2em + 0.2em);
+    width: 28%;
+    padding: 0.5em 0.5em;
+    border: 0.20em solid transparent;
+    /* background-image: linear-gradient(#a675f0,white),
+      linear-gradient(120deg, #f09 0%, #0ff 50%, #9f0 100%); */
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    border-radius: 1.8em;
+    background-size: 200% 100%;
+  font-weight: bold;
+}
+#alarmMinute{
+  color: black;
+    font-size: 1.40rem;
+    line-height: 1;
+    border-style: none;
+    outline: none;
+     height: calc(0.3em + 0.2em + 0.2em);
+    width: 28%;
+    padding: 0.5em 0.5em;
+    border: 0.20em solid transparent;
+    /* background-image: linear-gradient(#a675f0,white),
+      linear-gradient(120deg, #f09 0%, #0ff 50%, #9f0 30%); */
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    border-radius: 1.8em;
+    background-size: 200% 100%;
+  font-weight: bold;
+}
+
+
+ #alarmButton{
+  font-size: 20px;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 50px;
+  font-weight: 600;
+  color: black;
+  background-color: white;
+  cursor: pointer;
+   
+}
+.szbtn{
+   font-size: 20px;
+ border: none;
+  padding: 12px 24px;
+  border-radius: 50px;
+  font-weight: 600;
+  color: black;
+  background-color: white;
+ cursor: pointer;
+  
+}
+.stopbtn{
+   font-size: 20px;
+   border: none;
+  padding: 12px 24px;
+  border-radius: 50px;
+  font-weight: 600;
+  color: black;
+  background-color: white;
+ cursor: pointer;
+  
+} 
+
+.stopbtn:hover {
+  background-color: black;
+  color: white;
+}
+.szbtn:hover {
+  background-color: black;
+  color: white;
+}
+#alarmButton:hover {
+  background-color: black;
+  color: white;
+}
+
+/* 
+.container:hover{
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+}  */
+
+
+   
+  
+

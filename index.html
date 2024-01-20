@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Alarm clock</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+   <link rel="icon"
+    href="https://img.freepik.com/premium-vector/alarm-clock-yellow-wakeup-time-mint-background-flat-style-illustration-clock-logo-design_561142-47.jpg?w=2000" />
+</head>
+
+<body>
+
+  <div class="nav">
+    <h1>Alarm clock</h1>
+  </div>
+
+  <div class="container">
+    
+       <div class="watch">
+        <p id="hr">hours</p>:<p id="m">minutes</p>:<p id="s">seconds</p>
+        <p id="AMPM"></p>
+        </div>
+
+
+      <div class="alr">
+    <input type="number" id="alarmHour" placeholder="Hours (0-23)">
+    <input type="number" id="alarmMinute" placeholder="Minutes (0-59)">
+       </div>
+    
+        <div class="bttn">
+    <button id="alarmButton">Set Alarm</button>
+    <button onclick="snooze(1);" class="szbtn">Snooze 1 minute</button>
+    <button onclick="stopAlarm();" class="stopbtn">Stop Alarm</button>
+       </div>
+    
+   </div>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
